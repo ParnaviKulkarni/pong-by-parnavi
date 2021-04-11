@@ -50,13 +50,13 @@ score_b=0
 # Function
 def paddle_a_up():
     y = paddle_a.ycor()  # .ycor: turtle module property;returns y coordinate
-    y += 40
+    y += 60
     paddle_a.sety(y)
 
 
 def paddle_a_down():
     y = paddle_a.ycor()
-    y -= 40
+    y -= 60
     paddle_a.sety(y)
 
 
